@@ -1,0 +1,68 @@
+/* common.css */
+/* 顶部导航栏样式 */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30rpx 30rpx;
+  background-color: #FF5722;
+  height: 140rpx;
+}
+
+.search-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 80rpx;
+  margin-right: 20rpx;
+  padding: 0 20rpx;
+  background-color: white;
+  border-radius: 40rpx;
+}
+
+.placeholder {
+  margin-left: 10rpx;
+  color: #999;
+  font-size: 28rpx;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 30rpx;
+}
+
+.location-text {
+  margin-right: 10rpx;
+}
+
+.user-icon {
+  color: white;
+}
+
+/* 底部导航栏样式 */
+.tab-bar {
+  display: flex;
+  height: 100rpx;
+  border-top: 1rpx solid #eee;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.tab-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-item text {
+  margin-top: 5rpx;
+  font-size: 22rpx;
+}

@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/register/register"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ffffff", 
+    "backgroundColor": "#ffffff",
+    "navigationStyle": "custom", 
+    "backgroundTextStyle": "dark"
+  },
+  "usingComponents": {}
+}

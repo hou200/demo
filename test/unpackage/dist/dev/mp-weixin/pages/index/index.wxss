@@ -1,0 +1,134 @@
+
+/* 重置默认样式 */
+page, view, input, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 防止滚动 */
+page {
+  overflow: hidden;
+  height: 100vh;
+}
+.content {
+  background-image: url("../../static/1.webp");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 10px 15px;
+}
+.left-items {
+  display: flex;
+  gap: 30px;
+}
+.title view {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.title view:hover {
+  opacity: 0.8;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: transparent;
+  padding: 20px;
+  margin-top: -60px;
+}
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.input-container {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+.input-container input {
+  width: 100%;
+  padding: 8px 15px; /* 调整内边距以保持32px高度 */
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  color: white;
+  transition: all 0.3s ease;
+}
+.input-container input:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+input::-webkit-input-placeholder {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.7);
+}
+input::placeholder {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.7);
+}
+.button-container {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 10px;
+}
+.login-button {
+  width: 100%;
+  height: 32px; /* 精确控制按钮高度为32px */
+  padding: 0; /* 移除垂直内边距，使用height控制高度 */
+  border: none;
+  border-radius: 16px; /* 保持圆角与高度比例协调 */
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  font-size: 14px; /* 适当减小字体大小以适应高度 */
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.login-button:hover {
+  background-color: white;
+  transform: translateY(-1px); /* 减小悬停时的移动幅度 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 调整阴影效果 */
+}
+.links-container {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px; /* 调整链接与按钮的间距 */
+}
+.register-link,
+.forgot-password-link {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.register-link:hover,
+.forgot-password-link:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+

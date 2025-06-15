@@ -1,0 +1,122 @@
+
+/* 重置默认样式 */
+page, view, input, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 防止滚动 */
+page {
+  overflow: hidden;
+  height: 100vh;
+}
+.register-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../static/1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  padding: 0; /* 移除整体内边距，让导航栏紧贴边缘 */
+}
+
+/* 顶部导航栏样式 */
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 5px 8px; /* 减小顶部和左侧边距 */
+  margin-top: 5px; /* 减小顶部间距 */
+}
+.left-items {
+  display: flex;
+  gap: 20px; /* 减小"首页"和"联系我们"之间的间距 */
+}
+.title view {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px; /* 可选：适当减小字体大小 */
+}
+.title view:hover {
+  opacity: 0.8;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0 25px; /* 减小标题区的上下间距 */
+}
+.logo {
+  font-size: 22px; /* 适当减小标题字体 */
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.form-container {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 15px; /* 减小表单内边距 */
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+  box-shadow: none;
+}
+.form-group {
+  margin-bottom: 12px; /* 减小输入框间距 */
+}
+.form-group input {
+  width: 100%;
+  height: 32px;
+  padding: 0 15px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  color: white;
+}
+.form-group input::-webkit-input-placeholder {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.7);
+}
+.form-group input::placeholder {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.7);
+}
+.register-btn {
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 8px; /* 减小按钮顶部间距 */
+  border: none;
+}
+.footer {
+  position: absolute;
+  bottom: 15px; /* 减小底部边距 */
+  width: 100%;
+  text-align: center;
+}
+.login-link {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: white;
+  background-color: transparent;
+  border-radius: 15px;
+  border: none;
+  text-decoration: underline;
+}

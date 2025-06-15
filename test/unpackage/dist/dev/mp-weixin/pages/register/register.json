@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "用户注册",
+  "navigationBarBackgroundColor": "#00000000",
+  "backgroundColor": "#00000000",
+  "navigationStyle": "custom",
+  "usingComponents": {}
+}

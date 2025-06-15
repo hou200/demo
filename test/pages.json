@@ -1,0 +1,91 @@
+{
+    "pages": [
+        {
+            "path": "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "登录",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/register/register",
+            "style": {
+                "navigationBarTitleText": "注册",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/shop/shop",
+            "style": {
+                "navigationBarTitleText": "商城",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/shopcar/shopcar",
+            "style": {
+                "navigationBarTitleText": "购物车",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/category/category",
+            "style": {
+                "navigationBarTitleText": "分类"
+            }
+        },
+        {
+        	"path" : "pages/user/user",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "我的",
+        		"navigationStyle": "custom"
+        	}
+        },
+        {
+            "path": "pages/user/index",
+            "style": {
+                "navigationBarTitleText": "用户中心"
+            }
+        },
+        {
+            "path": "pages/user/profile/index",
+            "style": {
+                "navigationBarTitleText": "个人信息"
+            }
+        },
+        {
+            "path": "pages/user/orders/index",
+            "style": {
+                "navigationBarTitleText": "我的订单"
+            }
+        },
+        {
+            "path": "pages/user/settings/index",
+            "style": {
+                "navigationBarTitleText": "设置"
+            }
+        },
+        {
+            "path": "pages/user/help/index",
+            "style": {
+                "navigationBarTitleText": "帮助中心"
+        	}
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "商城应用",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#F5F5F5",
+        "navigationStyle": "custom",
+        "backgroundTextStyle": "dark"
+    },
+    "tabBar": {
+        "color": "#999999",
+        "selectedColor": "#FF5722",
+        "backgroundColor": "#FFFFFF",
+        "borderStyle": "black",
+        "list": []
+    }
+}
